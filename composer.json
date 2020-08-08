@@ -1,0 +1,24 @@
+{
+    "name": "etherio/framework",
+    "description": "The PHP Wrb Framework for Ethereal",
+    "type": "project",
+    "authors": [{
+	"name": "SHIN MAUNG MAUNG",
+	"email": "ethereal97@gmail.com",
+	"homepage": "https://github.com/skmetheloper"
+    }],
+    "require": {
+        "php": "^7.1"
+    },
+    "require-dev": {
+    },
+    "autoload": {
+	"psr-4": {
+            "App\\": "app/",
+            "Ethereal\\": "src/Ethereal/"
+	},
+	"files": [
+            "src/Ethereal/Support/helper.php"
+	]
+    }
+}

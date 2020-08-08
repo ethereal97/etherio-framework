@@ -1,0 +1,9 @@
+.env
+
+.php_cs_cache
+
+vendor/
+composer.lock
+
+node_modules/
+package-lock.json
