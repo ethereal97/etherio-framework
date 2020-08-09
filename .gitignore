@@ -1,9 +1,7 @@
+.php_cs.cache
 .env
 
-.php_cs_cache
-
-vendor/
 composer.lock
+vendor/
 
-node_modules/
-package-lock.json
+.DS_Store

@@ -11,6 +11,7 @@
         "php": "^7.1"
     },
     "require-dev": {
+	"phpunit/phpunit": "^9.1"
     },
     "autoload": {
 	"psr-4": {
@@ -20,5 +21,10 @@
 	"files": [
             "src/Ethereal/Support/helper.php"
 	]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+	}
     }
 }
